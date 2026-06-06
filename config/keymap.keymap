@@ -7,9 +7,14 @@
     combos {
         compatible = "zmk,combos";
 
-        lt_to_layer_4 {
-            bindings = <&mo 4>;
+        layer4_esc {
+            bindings = <&lt 4 ESCAPE>;
             key-positions = <58 59>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <26 27>;
         };
     };
 
@@ -46,13 +51,13 @@
             >;
         };
 
-        layer_1 {
+        cursor_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans          &trans         &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans          &trans         &trans           &kp PRINTSCREEN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans         &trans           &trans           &trans
             >;
         };
 
