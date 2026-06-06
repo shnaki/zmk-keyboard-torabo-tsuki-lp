@@ -8,7 +8,7 @@
         compatible = "zmk,combos";
 
         lt_to_layer_4 {
-            bindings = <&none>;
+            bindings = <&mo 4>;
             key-positions = <58 59>;
         };
     };
@@ -18,11 +18,11 @@
 
         default_layer {
             bindings = <
-&none  &none             &none     &none     &none     &none                                            &none        &none  &none      &none     &none                 &none
-&none  &kp Q             &kp W     &kp E     &kp R     &kp T                                            &kp Y        &kp U  &kp I      &kp O     &kp P                 &none
-&none  &kp A             &kp S     &kp D     &kp F     &kp G        &none             &none             &kp H        &kp J  &kp K      &kp L     &kp SEMI              &none
-&none  &mt LEFT_SHIFT Z  &kp X     &kp C     &kp V     &kp B        &kp TAB           &to 3             &kp N        &kp M  &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &none
-&none  &kp LCTRL         &kp LGUI  &kp LALT  &kp BSPC  &lt 2 ENTER  &lt 3 LANGUAGE_1  &lt 3 LANGUAGE_2  &lt 1 SPACE  &none  &none      &kp RGUI  &kp DEL               &none
+&none  &none             &none     &none     &none     &none                                        &none        &none  &none      &none     &none                 &none
+&none  &kp Q             &kp W     &kp E     &kp R     &kp T                                        &kp Y        &kp U  &kp I      &kp O     &kp P                 &none
+&none  &kp A             &kp S     &kp D     &kp F     &kp G        &none           &none           &kp H        &kp J  &kp K      &kp L     &kp SEMI              &none
+&none  &mt LEFT_SHIFT Z  &kp X     &kp C     &kp V     &kp B        &kp TAB         &to 3           &kp N        &kp M  &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &none
+&none  &kp LCTRL         &kp LGUI  &kp LALT  &kp BSPC  &lt 2 ENTER  &kp LANGUAGE_1  &kp LANGUAGE_2  &lt 1 SPACE  &none  &none      &kp RGUI  &kp DEL               &none
             >;
         };
 
@@ -56,7 +56,7 @@
             >;
         };
 
-        layer_4 {
+        bt_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans        &trans        &trans        &trans        &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans
