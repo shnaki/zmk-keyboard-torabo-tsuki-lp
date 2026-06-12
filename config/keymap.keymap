@@ -87,7 +87,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans          &trans            &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &kp C_AC_BACK   &kp C_AC_FORWARD  &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3        &mkp MB1        &mkp MB2          &mo 7            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3        &mkp MB1        &mkp MB2          &mo 7            &mo 8   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP      &msc SCRL_RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans            &trans           &trans  &trans
             >;
@@ -100,6 +100,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        mouse_ext {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3        &mkp MB1        &mkp MB2      &mo 7            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans           &trans  &trans
             >;
         };
     };
