@@ -87,9 +87,19 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans          &trans        &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3        &mkp MB1        &mkp MB2      &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3        &mkp MB1        &mkp MB2      &mo 7            &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans           &trans  &trans
+            >;
+        };
+
+        scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
@@ -97,5 +107,5 @@
 
 &zip_temp_layer {
     require-prior-idle-ms = <300>;
-    excluded-positions = <32 33 34 46 47 48 49>;
+    excluded-positions = <32 33 34 35 46 47 48 49>;
 };
