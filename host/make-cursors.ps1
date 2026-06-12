@@ -8,18 +8,18 @@ function New-ArrowCursor([string]$Path, [System.Drawing.Color]$Fill) {
     $g = [System.Drawing.Graphics]::FromImage($bmp)
     $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
 
-    # 標準的な矢印の輪郭（ホットスポットは左上 (0,0)、可視サイズ約12x19pxで標準矢印に合わせる）
+    # 標準的な矢印の輪郭（ホットスポットは左上 (0,0)）
     [System.Drawing.PointF[]]$pts = @(
         (New-Object System.Drawing.PointF 1, 1),
-        (New-Object System.Drawing.PointF 1, 16),
-        (New-Object System.Drawing.PointF 4.9, 12.7),
-        (New-Object System.Drawing.PointF 7.5, 18.6),
-        (New-Object System.Drawing.PointF 10.1, 17.3),
-        (New-Object System.Drawing.PointF 7.5, 12.1),
-        (New-Object System.Drawing.PointF 12.7, 12.1)
+        (New-Object System.Drawing.PointF 1, 24),
+        (New-Object System.Drawing.PointF 7, 19),
+        (New-Object System.Drawing.PointF 11, 28),
+        (New-Object System.Drawing.PointF 15, 26),
+        (New-Object System.Drawing.PointF 11, 18),
+        (New-Object System.Drawing.PointF 19, 18)
     )
     $brush = New-Object System.Drawing.SolidBrush $Fill
-    $pen = New-Object System.Drawing.Pen ([System.Drawing.Color]::Black), 1.25
+    $pen = New-Object System.Drawing.Pen ([System.Drawing.Color]::Black), 1.5
     $g.FillPolygon($brush, $pts)
     $g.DrawPolygon($pen, $pts)
     $g.Dispose()
