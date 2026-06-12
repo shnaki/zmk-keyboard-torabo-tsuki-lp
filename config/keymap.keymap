@@ -13,13 +13,9 @@
     layer_listeners {
         compatible = "zmk,layer-listeners";
 
-        // 離脱時にキーコードを送るとtemp_layerのrequire-prior-idle-ms判定に
-        // 「キー入力」としてカウントされ、直後のレイヤー再有効化が300msブロック
-        // されてしまうため、進入時のみ通知する（離脱はホスト側がマウス入力の
-        // アイドル時間から推定する）
         mouse_layer_notify {
             layers = <LAYER_MOUSE>;
-            bindings = <&kp F23 &none>;  // 進入時のみ
+            bindings = <&kp F23 &kp F24>;  // 進入時 / 離脱時
         };
 
         scroll_layer_notify {
