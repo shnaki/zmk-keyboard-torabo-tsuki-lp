@@ -1,29 +1,11 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 120  // default: 10（スムーズスクロール有効時は120で1ノッチ相当）
 
-#define LAYER_MOUSE 6
-#define LAYER_SCROLL 7
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    // レイヤー出入りをホストへ通知（host/pointer-color.ahk がポインタ色を切替）
-    layer_listeners {
-        compatible = "zmk,layer-listeners";
-
-        mouse_layer_notify {
-            layers = <LAYER_MOUSE>;
-            bindings = <&kp F23 &kp F24>;  // 進入時 / 離脱時
-        };
-
-        scroll_layer_notify {
-            layers = <LAYER_SCROLL>;
-            bindings = <&kp F21 &kp F22>;  // 進入時 / 離脱時
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
