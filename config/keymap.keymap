@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 3000  // 1tick(40ms)で 3000*40/1000 = 120 = 1ノッチ
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 25  // 低解像度(smooth=n): 25*40/1000 = 1単位 = 1ノッチ/tick（検証用）
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
