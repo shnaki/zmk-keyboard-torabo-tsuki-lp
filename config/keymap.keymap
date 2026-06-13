@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 25  // 低解像度(smooth=n): 25*40/1000 = 1単位 = 1ノッチ/tick（検証用）
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 3000  // hi-res(smooth=y): 3000*40/1000 = 120単位 = 1ノッチ/tick
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -8,16 +8,18 @@
 / {
     macros {
         // 1タップで正確に1ノッチ(120単位)スクロールする離散スクロール。
-        // &msc は trigger-period-ms = 40ms に設定済みで、押下から40ms後の
-        // 1tickで 3000*40/1000 = 120 を送信し、2tick目(80ms)より前の60msで解放する。
+        // behavior_queue の wait は「実行後、次の項目までの遅延」のため、
+        // macro_wait_time 60 を macro_press の前に置く必要がある。
+        // これにより press 項目に wait=60 が付き、その60ms保持中に
+        // trigger-period-ms=40ms の最初のティックが発火して120単位=1ノッチを送信する。
         scrl: scrl {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             wait-ms = <0>;
             bindings
-                = <&macro_param_1to1>
+                = <&macro_wait_time 60>
+                , <&macro_param_1to1>
                 , <&macro_press &msc MOVE_Y(0)>
-                , <&macro_wait_time 60>
                 , <&macro_param_1to1>
                 , <&macro_release &msc MOVE_Y(0)>;
         };
@@ -65,7 +67,7 @@
 &trans  &trans           &trans       &trans             &trans            &trans                         &trans          &trans          &trans        &trans           &trans     &trans
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR        &kp PERCENT                    &kp CARET       &kp AMPERSAND   &kp ASTERISK  &kp MINUS        &kp EQUAL  &trans
 &trans  &kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans       &trans   &trans   &mkp MB3        &mkp MB1        &mkp MB2      &kp UNDERSCORE   &kp PLUS   &trans
-&trans  &kp F1           &kp F2       &kp F3             &kp F4            &kp F5       &kp F11  &kp F12  &msc SCRL_DOWN  &scrl SCRL_DOWN  &scrl SCRL_UP  &scrl SCRL_RIGHT  &mmv MOVE_RIGHT    &trans
+&trans  &kp F1           &kp F2       &kp F3             &kp F4            &kp F5       &kp F11  &kp F12  &scrl SCRL_LEFT  &scrl SCRL_DOWN  &scrl SCRL_UP  &scrl SCRL_RIGHT  &kp F10    &trans
 &trans  &trans           &trans       &trans             &trans            &trans       &trans   &trans   &trans          &trans          &trans        &trans           &trans     &trans
             >;
         };
