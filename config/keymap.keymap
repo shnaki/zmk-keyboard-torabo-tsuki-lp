@@ -140,7 +140,7 @@
 
 &zip_temp_layer {
     require-prior-idle-ms = <300>;
-    excluded-positions = <19 20 32 33 34 35 36 46 47 48 49>;
+    excluded-positions = <19 20 22 32 33 34 35 36 46 47 48 49>;
 };
 
 // クリック/スクロール操作中はマウスレイヤーの消灯タイマーを延長する。
