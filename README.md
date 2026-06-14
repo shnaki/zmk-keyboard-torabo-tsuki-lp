@@ -3,3 +3,7 @@
 
 * _centralがついているuf2をトラックボールがついている方に、_peripheralを反対側に書き込んでください
 * キーマップはkeymap-editorおよびzmk-studioで編集できます
+
+## キーマップ
+
+![keymap](keymap-drawer/keymap.svg)

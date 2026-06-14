@@ -1,0 +1,11 @@
+parse_config:
+  # &scrl SCRL_* マクロのラベルを人間が読みやすい表記に変換
+  raw_binding_map:
+    "&scrl SCRL_UP": "ScrollU"
+    "&scrl SCRL_DOWN": "ScrollD"
+    "&scrl SCRL_LEFT": "ScrollL"
+    "&scrl SCRL_RIGHT": "ScrollR"
+
+draw_config:
+  # スプリットキーボードの左右間隔（x=6〜x=9 のギャップに合わせて余白を追加）
+  split_gap: 30
