@@ -2,14 +2,15 @@ name: Draw keymap
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "config/keymap.keymap"
-      - "keymap-drawer/**"
-      - ".github/workflows/draw-keymap.yml"
+  workflow_run:
+    workflows: ["Build ZMK firmware"]
+    types: [completed]
 
 jobs:
   draw:
+    if: >-
+      ${{ github.event_name == 'workflow_dispatch' ||
+          github.event.workflow_run.event == 'push' }}
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     permissions:
       contents: write
