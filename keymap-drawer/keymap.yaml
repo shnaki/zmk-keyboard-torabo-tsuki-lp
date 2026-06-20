@@ -37,7 +37,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - /
   - UP ARROW
   - functions
   - cursor
@@ -75,8 +75,8 @@ layers:
   - {t: ▽, type: trans}
   - (
   - )
-  - \
   - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Z
@@ -89,8 +89,8 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - '|'
   - {t: ▽, type: trans}
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
