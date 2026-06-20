@@ -46,19 +46,19 @@
 
         default {
             bindings = <
-&kp TAB         &mt LCTRL Q       &kp W     &kp E     &kp R     &kp T                                        &kp Y        &kp U  &kp I      &kp O            &kp P                 &kp DELETE
-&kp LCTRL       &kp A             &kp S     &kp D     &kp F     &kp G                                        &kp H        &kp J  &kp K      &kp L            &kp SEMI              &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X     &kp C     &kp V     &kp B        &kp LCTRL       &kp DELETE      &kp N        &kp M  &kp COMMA  &kp DOT          &mt RIGHT_SHIFT FSLH  &kp UP_ARROW
-&mo 5           &mo 3             &kp LGUI  &kp LALT  &kp BSPC  &lt 2 ENTER  &kp LANGUAGE_1  &kp LANGUAGE_2  &lt 1 SPACE  &none  &none      &kp RIGHT_SHIFT  &kp ESCAPE            &kp RIGHT_ARROW
+&kp TAB         &mt LCTRL Q       &kp W     &kp E     &kp R     &kp T                                        &kp Y        &kp U  &kp I      &kp O            &kp P       &kp DELETE
+&kp LCTRL       &kp A             &kp S     &kp D     &kp F     &kp G                                        &kp H        &kp J  &kp K      &kp L            &kp SEMI    &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X     &kp C     &kp V     &kp B        &kp LCTRL       &kp DELETE      &kp N        &kp M  &kp COMMA  &kp DOT          &kp SLASH   &kp UP_ARROW
+&mo 5           &mo 3             &kp LGUI  &kp LALT  &kp BSPC  &lt 2 ENTER  &kp LANGUAGE_1  &kp LANGUAGE_2  &lt 1 SPACE  &none  &none      &kp RIGHT_SHIFT  &kp ESCAPE  &kp RIGHT_ARROW
             >;
         };
 
         numbers {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3          &kp N4           &kp N5                  &kp N6  &kp N7                &kp N8                 &kp N9         &kp N0  &trans
-&trans  &trans        &trans        &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans  &trans
-&trans  &kp LS(Z)     &trans        &trans          &trans           &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans  &trans
-&trans  &trans        &trans        &trans          &trans           &trans  &trans  &trans  &trans  &trans                &trans                 &trans         &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3          &kp N4           &kp N5                  &kp N6  &kp N7                &kp N8                 &kp N9  &kp N0                &trans
+&trans  &trans        &trans        &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &kp NON_US_BACKSLASH  &trans
+&trans  &kp LS(Z)     &trans        &trans          &trans           &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &kp PIPE              &trans
+&trans  &trans        &trans        &trans          &trans           &trans  &trans  &trans  &trans  &trans                &trans                 &trans  &trans                &trans
             >;
         };
 
