@@ -64,10 +64,10 @@
 
         symbols {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR        &kp PERCENT                    &kp CARET        &kp AMPERSAND    &kp ASTERISK   &kp MINUS         &kp EQUAL  &trans
-&trans  &kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans                         &mkp MB3         &mkp MB1         &mkp MB2       &kp UNDERSCORE    &kp PLUS   &trans
-&trans  &kp F1           &kp F2       &kp F3             &kp F4            &kp F5       &kp F11  &kp F12  &scrl SCRL_LEFT  &scrl SCRL_DOWN  &scrl SCRL_UP  &scrl SCRL_RIGHT  &kp F10    &trans
-&trans  &trans           &trans       &trans             &trans            &trans       &trans   &trans   &trans           &trans           &trans         &trans            &trans     &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR        &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp MINUS       &kp EQUAL  &trans
+&trans  &kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans                       &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS   &trans
+&trans  &trans           &trans       &trans             &trans            &trans       &trans  &trans  &trans     &trans                &trans                 &trans          &trans     &trans
+&trans  &trans           &trans       &trans             &trans            &trans       &trans  &trans  &trans     &trans                &trans                 &trans          &trans     &trans
             >;
         };
 
