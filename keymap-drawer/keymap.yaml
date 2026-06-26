@@ -120,7 +120,7 @@ layers:
   - '='
   - \
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - '~'
   - '"'
   - ''''
@@ -183,21 +183,21 @@ layers:
   - UP ARROW
   - RIGHT ARROW
   - '-'
-  - '`'
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
+  - CAPS
   - F12
   - HOME
   - PAGE UP
   - PAGE DOWN
   - END
   - _
-  - {t: ▽, type: trans}
+  - '`'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
