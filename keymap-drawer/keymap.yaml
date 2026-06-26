@@ -170,11 +170,11 @@ layers:
   - F7
   - F8
   - F9
-  - '~'
-  - PRINTSCREEN
+  - '-'
+  - '='
   - {t: ▽, type: trans}
-  - F10
-  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,7 +182,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - '-'
+  - \
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - PAGE UP
   - PAGE DOWN
   - END
-  - _
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -209,8 +209,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - INSERT
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   bt:
   - {t: ▽, type: trans}
