@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keymap}
 layers:
   default:
   - TAB
-  - {t: Q, h: LCTRL}
+  - Q
   - W
   - E
   - R
