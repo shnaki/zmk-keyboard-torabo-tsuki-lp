@@ -66,7 +66,7 @@
             bindings = <
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR        &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp MINUS       &kp EQUAL  &trans
 &trans  &kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans                       &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS   &trans
-&trans  &trans           &trans       &trans             &trans            &trans       &trans  &trans  &trans     &trans                &trans                 &trans          &trans     &trans
+&trans  &trans           &trans       &trans             &trans            &trans       &trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &trans     &trans
 &trans  &trans           &trans       &trans             &trans            &trans       &trans  &trans  &trans     &trans                &trans                 &trans          &trans     &trans
             >;
         };
