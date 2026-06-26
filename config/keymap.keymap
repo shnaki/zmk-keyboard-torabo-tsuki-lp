@@ -73,10 +73,10 @@
 
         cursor {
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                    &kp F6          &kp F7          &kp F8         &kp F9           &kp PRINTSCREEN  &trans
-&trans  &kp F10  &kp F11  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &trans           &trans
-&trans  &trans   &trans   &trans  &trans  &trans  &kp F11  &kp F12  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &trans           &trans
-&trans  &trans   &trans   &trans  &trans  &trans  &trans   &trans   &trans          &trans          &trans         &trans           &kp INSERT       &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                    &kp F6          &kp F7          &kp F8         &kp F9           &kp TILDE       &kp PRINTSCREEN
+&trans  &kp F10  &kp F11  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp MINUS       &kp GRAVE
+&trans  &trans   &trans   &trans  &trans  &trans  &kp F11  &kp F12  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &kp UNDERSCORE  &trans
+&trans  &trans   &trans   &trans  &trans  &trans  &trans   &trans   &trans          &trans          &trans         &trans           &kp INSERT      &trans
             >;
         };
 
