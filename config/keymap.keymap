@@ -126,11 +126,11 @@
 };
 
 // クリック/スクロール操作中はマウスレイヤーの消灯タイマーを延長する。
-// 移動イベント側は zip_temp_layer 6 700 のまま据え置き、
+// 移動イベント側は zip_temp_layer 5 700 のまま据え置き、
 // クリック(mkp)とスクロール(msc)だけ 1000ms で再スケジュールする。
 // layer_disable_works[] はレイヤー番号でインデックスされる共有配列なので、
-// どちらのリスナーからでもレイヤー6のタイマーをリセットできる。
+// どちらのリスナーからでもレイヤー5のタイマーをリセットできる。
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 6 1000>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 5 1000>; };
 
-&msc_input_listener { input-processors = <&zip_temp_layer 6 1000>; };
+&msc_input_listener { input-processors = <&zip_temp_layer 5 1000>; };

@@ -15,10 +15,10 @@
         status = "okay";
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_xy_scaler 7 10>,
-                           <&zip_temp_layer 6 700>;
+                           <&zip_temp_layer 5 700>;
 
         scroller {
-            layers = <7>;
+            layers = <6>;
             process-next;
             // センサー反転(X|Y)とホイール標準方向(Y)の合成でXのみ反転
             input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
