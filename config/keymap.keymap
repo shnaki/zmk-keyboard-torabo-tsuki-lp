@@ -121,7 +121,7 @@
 &msc { trigger-period-ms = <40>; };
 
 &zip_temp_layer {
-    require-prior-idle-ms = <300>;
+    require-prior-idle-ms = <500>;
     excluded-positions = <9 11 18 19 20 21 22 32 33 34 35 51>;
 };
 
