@@ -273,7 +273,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: default, h: toggle}
@@ -283,12 +284,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - '&mkp MB4'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   - scroll
-  - mouse_ext
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -317,7 +317,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - mouse_ext
   scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -340,8 +340,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -394,7 +394,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - scroll
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -423,7 +423,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [44, 45]
   k: {t: ESCAPE, h: bt}
