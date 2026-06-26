@@ -30,8 +30,8 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_esc {
-            bindings = <&lt 4 ESCAPE>;
+        to_bt {
+            bindings = <&mo 4>;
             key-positions = <44 45>;
         };
 
