@@ -42,7 +42,7 @@ layers:
   - cursor
   - LEFT WIN
   - LEFT ALT
-  - LALT
+  - RIGHT ALT
   - BSPC
   - {t: ENTER, h: symbols}
   - LANGUAGE 1
