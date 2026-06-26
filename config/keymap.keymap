@@ -89,19 +89,10 @@
             >;
         };
 
-        functions {
-            bindings = <
-&trans  &kp F1   &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6          &kp F7          &kp F8         &kp F9           &kp F10         &kp INSERT
-&trans  &kp TAB  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp MINUS       &trans
-&trans  &trans   &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &kp UNDERSCORE  &trans
-&trans  &trans   &trans  &trans  &trans  &trans  &trans   &trans   &trans          &trans          &trans         &trans           &trans          &trans
-            >;
-        };
-
         mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans           &mkp MB4         &mkp MB5       &trans            &to 0   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &mkp MB3         &mkp MB1         &mkp MB2       &mo 7             &mo 8   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &mkp MB3         &mkp MB1         &mkp MB2       &mo 6             &mo 7   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &scrl SCRL_LEFT  &scrl SCRL_DOWN  &scrl SCRL_UP  &scrl SCRL_RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans           &trans         &trans            &trans  &trans
             >;
@@ -119,7 +110,7 @@
         mouse_ext {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans           &mkp MB4         &mkp MB5       &trans            &to 0   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &mkp MB3         &mkp MB1         &mkp MB2       &mo 7             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &mkp MB3         &mkp MB1         &mkp MB2       &mo 6             &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &scrl SCRL_LEFT  &scrl SCRL_DOWN  &scrl SCRL_UP  &scrl SCRL_RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans           &trans         &trans            &trans  &trans
             >;
