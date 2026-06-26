@@ -41,8 +41,8 @@ layers:
   - ''''
   - cursor
   - LEFT WIN
+  - LEFT COMMAND
   - LEFT ALT
-  - RIGHT ALT
   - BSPC
   - {t: ENTER, h: symbols}
   - LANGUAGE 1
