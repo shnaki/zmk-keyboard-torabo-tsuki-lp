@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - DELETE
+  - '['
   - LCTRL
   - A
   - S
@@ -24,9 +24,9 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - ']'
   - LEFT SHIFT
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
@@ -38,10 +38,10 @@ layers:
   - ','
   - .
   - /
-  - UP ARROW
-  - functions
+  - ''''
   - cursor
-  - LGUI
+  - LEFT WIN
+  - LEFT ALT
   - LALT
   - BSPC
   - {t: ENTER, h: symbols}
@@ -51,8 +51,8 @@ layers:
   - ''
   - ''
   - RIGHT SHIFT
+  - RCTRL
   - ESCAPE
-  - RIGHT ARROW
   numbers:
   - {t: ▽, type: trans}
   - '1'
@@ -198,8 +198,8 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,7 +304,7 @@ layers:
   - END
   - _
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
