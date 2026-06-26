@@ -354,9 +354,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
@@ -578,9 +577,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
@@ -802,9 +800,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
@@ -1038,9 +1035,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
@@ -1270,9 +1266,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
@@ -1509,9 +1504,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
@@ -1735,9 +1729,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
@@ -1972,9 +1965,8 @@ path.combo {
 <path d="M420,196 l-37,0" class="combo"/>
 <path d="M420,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="183" width="28" height="26" class="combo"/>
-<text x="420" y="196" class="combo tap">ESCAPE</text>
 <a href="#bt">
-<text x="420" y="207" class="combo hold layer-activator">bt</text>
+<text x="420" y="196" class="combo tap layer-activator">bt</text>
 </a></g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>

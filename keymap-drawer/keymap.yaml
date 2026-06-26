@@ -426,6 +426,6 @@ layers:
   - {type: held}
 combos:
 - p: [44, 45]
-  k: {t: ESCAPE, h: bt}
+  k: bt
 - p: [14, 15]
   k: TAB
