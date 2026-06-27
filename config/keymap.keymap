@@ -55,28 +55,28 @@
 
         numbers {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7                &kp N8                 &kp N9  &kp N0                &kp MINUS
-&trans  &trans        &trans        &trans  &trans  &trans                  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &kp NON_US_BACKSLASH  &kp EQUAL
-&trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                 &trans  &kp PIPE              &kp SLASH
-&trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                 &trans  &trans                &trans
+&trans  &trans        &trans        &trans        &trans        &trans                        &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans        &trans        &trans        &trans        &trans        &trans
             >;
         };
 
         symbols {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp MINUS       &kp EQUAL  &kp NON_US_BACKSLASH
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS   &kp PIPE
-&trans  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &trans     &trans
-&trans  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans     &trans                &trans                 &trans          &trans     &trans
+&trans  &trans           &trans       &trans    &trans      &trans                       &trans     &trans                &trans                 &trans     &kp NON_US_BACKSLASH  &kp PIPE
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp EQUAL  &kp MINUS             &kp GRAVE
+&trans  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS   &kp UNDERSCORE        &kp TILDE
+&trans  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans     &trans                &trans                 &trans     &trans                &trans
             >;
         };
 
         functions {
             bindings = <
-&kp LANG_ZENKAKUHANKAKU  &kp F1  &kp F2  &kp F3         &kp F4      &kp F5                      &kp F6          &kp F7          &kp F8         &kp F9           &kp F10         &kp F11
-&kp RIGHT_CONTROL        &trans  &trans  &trans         &kp F12     &trans                      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp MINUS       &kp TILDE
-&kp RIGHT_SHIFT          &trans  &trans  &trans         &trans      &trans  &trans  &kp INSERT  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &kp UNDERSCORE  &kp GRAVE
-&trans                   &trans  &trans  &kp RIGHT_ALT  &kp DELETE  &trans  &trans  &trans      &trans          &trans          &trans         &kp CAPS         &trans          &trans
+&kp LANG_ZENKAKUHANKAKU  &kp F1   &kp F2   &kp F3         &kp F4      &kp F5                      &kp F6          &kp F7          &kp F8         &kp F9           &kp F10         &kp F11
+&kp RIGHT_CONTROL        &kp F11  &kp F12  &trans         &trans      &trans                      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp MINUS       &kp GRAVE
+&kp RIGHT_SHIFT          &trans   &trans   &trans         &trans      &trans  &trans  &kp INSERT  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &kp UNDERSCORE  &kp TILDE
+&trans                   &trans   &trans   &kp RIGHT_ALT  &kp DELETE  &trans  &trans  &trans      &trans          &trans          &trans         &kp CAPS         &trans          &trans
             >;
         };
 
