@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - ']'
+  - ''''
   - LEFT SHIFT
   - Z
   - X
@@ -38,7 +38,7 @@ layers:
   - ','
   - .
   - /
-  - ''''
+  - ']'
   - functions
   - LEFT WIN
   - SPACE
@@ -171,7 +171,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - ']'
   - RIGHT CONTROL
   - F11
   - F12
