@@ -39,7 +39,7 @@ layers:
   - .
   - /
   - ''''
-  - cursor
+  - functions
   - LEFT WIN
   - SPACE
   - LEFT ALT
@@ -159,8 +159,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  cursor:
-  - {t: ▽, type: trans}
+  functions:
+  - LANG ZENKAKUHANKAKU
   - F1
   - F2
   - F3
