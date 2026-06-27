@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - LCTRL
+  - Sft+Gui+S
   - DELETE
   - N
   - M
@@ -41,7 +41,7 @@ layers:
   - ''''
   - cursor
   - LEFT WIN
-  - '&caps_word'
+  - SPACE
   - LEFT ALT
   - BSPC
   - {t: ENTER, h: symbols}
@@ -50,8 +50,8 @@ layers:
   - {t: SPACE, h: numbers}
   - ''
   - ''
-  - RIGHT SHIFT
-  - RCTRL
+  - '&caps_word'
+  - ENTER
   - ESCAPE
   numbers:
   - {t: ▽, type: trans}
@@ -172,11 +172,11 @@ layers:
   - F9
   - F10
   - F11
+  - RIGHT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -184,14 +184,14 @@ layers:
   - RIGHT ARROW
   - '-'
   - '~'
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CAPS
-  - F12
+  - INSERT
   - HOME
   - PAGE UP
   - PAGE DOWN
@@ -201,16 +201,16 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - RIGHT ALT
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - CAPS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INSERT
-  - PRINTSCREEN
   - {t: ▽, type: trans}
   adjust:
   - '&bootloader'
