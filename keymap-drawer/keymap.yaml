@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - Sft+Gui+S
+  - '&caps_word'
   - DELETE
   - N
   - M
@@ -50,8 +50,8 @@ layers:
   - {t: SPACE, h: numbers}
   - ''
   - ''
-  - '&caps_word'
-  - ENTER
+  - LEFT
+  - RIGHT ARROW
   - ESCAPE
   numbers:
   - {t: ▽, type: trans}
@@ -190,7 +190,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+S
   - INSERT
   - HOME
   - PAGE UP
@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
@@ -218,7 +218,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPSLOCK
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
