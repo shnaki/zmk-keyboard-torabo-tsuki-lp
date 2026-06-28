@@ -43,7 +43,7 @@ layers:
   - LEFT WIN
   - SPACE
   - LEFT ALT
-  - BSPC
+  - {t: BACKSPACE, h: RIGHT ALT}
   - {t: ENTER, h: symbols}
   - LANGUAGE 1
   - LANGUAGE 2
