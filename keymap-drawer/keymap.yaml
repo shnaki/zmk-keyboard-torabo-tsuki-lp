@@ -40,9 +40,9 @@ layers:
   - /
   - ']'
   - functions
-  - LEFT WIN
-  - SPACE
   - LEFT ALT
+  - SPACE
+  - LEFT WIN
   - {t: BACKSPACE, h: RIGHT ALT}
   - {t: ENTER, h: symbols}
   - LANGUAGE 1
