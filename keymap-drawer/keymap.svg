@@ -362,6 +362,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 280)" class="layer-numbers">
@@ -585,6 +599,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-symbols">
@@ -808,6 +836,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-functions">
@@ -1053,6 +1095,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-adjust">
@@ -1284,6 +1340,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1400)" class="layer-mouse">
@@ -1523,6 +1593,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1680)" class="layer-scroll">
@@ -1748,6 +1832,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1960)" class="layer-mouse_fast">
@@ -1985,6 +2083,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 2240)" class="layer-mouse_slow">
@@ -2222,6 +2334,20 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
 <text x="168" y="84" class="combo tap">TAB</text>
 </g>
+<g class="combo combopos-2">
+<path d="M196,196 l-149,0" class="combo"/>
+<path d="M196,196 l149,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="196" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
+<g class="combo combopos-3">
+<path d="M644,196 l149,0" class="combo"/>
+<path d="M644,196 l-149,0" class="combo"/>
+<rect rx="6" ry="6" x="630" y="183" width="28" height="26" class="combo"/>
+<a href="#adjust">
+<text x="644" y="196" class="combo tap layer-activator">adjust</text>
+</a></g>
 </g>
 </g>
 </svg>
