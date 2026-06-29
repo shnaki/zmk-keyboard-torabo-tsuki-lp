@@ -39,6 +39,16 @@
             bindings = <&kp TAB>;
             key-positions = <14 15>;
         };
+
+        to_adjust_left {
+            bindings = <&mo 4>;
+            key-positions = <38 44>;
+        };
+
+        to_adjust_right {
+            bindings = <&mo 4>;
+            key-positions = <51 45>;
+        };
     };
 
     keymap {
