@@ -74,9 +74,9 @@
 
         symbols {
             bindings = <
-&trans  &trans           &trans       &trans    &trans      &trans                       &trans     &trans                &trans                 &trans     &kp NON_US_BACKSLASH  &kp PIPE
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp EQUAL  &kp MINUS             &kp GRAVE
-&trans  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS   &kp UNDERSCORE        &kp TILDE
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp ASTERISK           &trans     &kp NON_US_BACKSLASH  &kp PIPE
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp MINUS             &kp GRAVE
+&trans  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS   &kp UNDERSCORE        &kp TILDE
 &trans  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans     &trans                &trans                 &trans     &trans                &trans
             >;
         };
