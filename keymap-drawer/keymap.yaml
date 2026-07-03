@@ -108,14 +108,14 @@ layers:
   - {t: ▽, type: trans}
   symbols:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
   - {t: ▽, type: trans}
   - \
   - '|'
@@ -126,8 +126,8 @@ layers:
   - $
   - '%'
   - ^
-  - '&'
-  - '*'
+  - (
+  - )
   - '='
   - '-'
   - '`'
@@ -140,8 +140,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (
-  - )
+  - '['
+  - ']'
   - +
   - _
   - '~'
