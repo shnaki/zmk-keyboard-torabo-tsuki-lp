@@ -83,10 +83,10 @@
 
         functions {
             bindings = <
-&kp LANG_ZENKAKUHANKAKU  &kp F1   &kp F2   &kp F3         &kp F4         &kp F5                             &kp F6          &kp F7          &kp F8         &kp F9           &kp F10         &kp RIGHT_BRACKET
-&kp RIGHT_CONTROL        &kp F11  &kp F12  &trans         &trans         &trans                             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp MINUS       &kp GRAVE
-&kp RIGHT_SHIFT          &trans   &trans   &trans         &trans         &trans  &kp LS(LG(S))  &kp INSERT  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &kp UNDERSCORE  &kp TILDE
-&trans                   &trans   &trans   &kp RIGHT_ALT  &kp BACKSPACE  &trans  &trans         &trans      &trans          &trans          &trans         &trans           &trans          &trans
+&kp LANG_ZENKAKUHANKAKU  &kp F1   &kp F2   &kp F3  &kp F4         &kp F5                             &kp F6          &kp F7          &kp F8         &kp F9           &kp F10         &kp RIGHT_BRACKET
+&kp RIGHT_CONTROL        &kp F11  &kp F12  &trans  &trans         &trans                             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp MINUS       &kp GRAVE
+&kp RIGHT_SHIFT          &trans   &trans   &trans  &trans         &trans  &kp LS(LG(S))  &kp INSERT  &kp HOME        &kp PAGE_UP     &kp PAGE_DOWN  &kp END          &kp UNDERSCORE  &kp TILDE
+&trans                   &trans   &trans   &trans  &kp BACKSPACE  &trans  &trans         &trans      &trans          &trans          &trans         &trans           &trans          &trans
             >;
         };
 
